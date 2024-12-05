@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pascal's Triangle creater</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pascal's Triangle creater</h1>
+    <span id="author">Created by Bill Cao</span>
+
+    <div id="central">
+        <label for="input">Create a Pascal's Triangle with the layer count of:</label>
+        <br>
+        <em>Note: the algorithm limit is 171.</em>
+        <br><br>
+        <input id= "input" name="input" type="number" min="1" placeholder ="Suggestion: 5">
+        <button onclick="createPascalTriangle()">Create</button>
+        <br><br>
+
+        <h3>OPTIONAL</h3>
+        <label>Write down the two term of the binomial you wanted to expand using Binomial Theorem:</label>
+        <br>
+        <em>Note: the input can contain lowercased letter(a to z), number(0 to 9), and minus sign before the letter or number. The two term can't be the same.</em>
+        <br>
+        <em id="example"></em>
+        <br><br>
+
+        <label for="inputB1">Term 1:</label>
+        <input id= "inputB1" name="inputB1" type="text" min="1" placeholder ="Suggestion: a">
+
+        <br><br>
+
+        <label for="inputB2">Term 2:</label>
+        <input id= "inputB2" name="inputB2" type="text" min="1" placeholder ="Suggestion: b"> 
+
+        <br><br>
+        <strong>Use right and left arrow to move the Pascal Triangle when it clipped out of the screen.</strong>
+        <br><br>
+        <strong>Press Tab to jump to the input box right away.</strong>
+        <br><br>
+        <strong>Press Enter to create the triangle.</strong>
+        <br><br>
+        <strong>Hover over each box to find its row and combination expression.</strong>
+    </div>
+
+    <br><br><br>
+
+    <div id="insert"></div>
+    <script src="script.js"></script>
+</body>
+</html> 
