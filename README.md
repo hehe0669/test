@@ -1,1 +1,1 @@
-Just my personal project lol
+Used this project to learn Git and GitHub.
